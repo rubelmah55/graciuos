@@ -1,0 +1,458 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/* Basic CSS Ended*/
+.top-margin{
+    margin-top: 96px;
+}
+
+.btn{
+    border: 1px solid #fff;
+    display: inline-block;
+    min-width: 160px;
+    padding: .9em;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+.btn:hover{
+    background-color: #f79b23;
+    color: #fff;
+    text-decoration: none;
+}
+
+#bgimages{
+    width: 100%;
+    min-height: 670px;
+    position: relative;
+}
+.logo {
+    padding: 25px 0px 15px;
+}
+.header-text h1 {
+    color: #fff;
+}
+
+#bgimages.header-text{
+    padding-top: 30px;
+}
+
+#bgimages.header-images{
+    background-image: url(img/slider.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#bgimages.header-images h1:after {
+    border-top: 2px solid #fff;
+    display: block;
+    width: 120px;
+    margin: 30px 0;
+    content: "";
+}
+#bgimages.header-images p{
+    width: 70%;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+#bgimages.header-images h4{
+    color: #fff;
+
+}
+#bgimages.header-images span {
+    color: #E33063;
+    display: block;
+}
+
+.pink-btn{
+    background: #e0356e;
+    border: none;
+    margin-left: 10px;
+}
+
+.pink-btn:hover{
+    background-color: #f79b23;
+    color: #fff;
+    text-decoration: none;
+}
+.main-manu{
+    background-color: #fff;
+    border-radius: 0;
+}
+.main-manu .navbar-nav > li > a {
+    padding: 20px 13px 10px 13;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666;
+    border-bottom: 3px solid transparent;
+}
+.navbar-default{
+    border: none;
+}
+.navbar-default .navbar-nav > .active > a,.main-manu .navbar-nav > li > a:hover{
+    background-color: transparent;
+    color: #e0356e;
+}
+.main-manu .navbar-nav > li > a:hover{
+    color: #e0356e;
+}
+
+
+
+p.about-dec {
+    width: 60%;
+    display: inline-block;
+}
+.abour-title {
+    margin-bottom: 35px;
+}
+.media .media-left i {
+    font-size: 25px;
+    background-color: #e03560;
+    padding: 20px;
+    color: #fff;
+}
+h4.info-title, h5.choose {
+    margin-bottom: 30px;
+}
+
+
+* {box-sizing: border-box}
+.skills-title {
+    margin-top: 10px;
+}
+.skills-title h3 {
+    color: #E03560;
+}
+
+.skills-item {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 25px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #E03560;}
+.css {width: 80%; background-color: #E03560;}
+.js {width: 65%; background-color: #E03560;}
+.php {width: 60%; background-color: #E03560;}
+
+
+ul.list-style li {
+    list-style: none;
+    margin-top: 20px;
+}
+ul.list-style li img {
+    margin-right: 15px;
+}
+ul.list-style {
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+section#services p {
+    width: 70%;
+    display: inline-block;
+}
+
+.row.services-item {
+    margin-top: 30px;
+}
+.secvice-item.text-center img {
+    margin-bottom: 15px;
+}
+
+.secvice-item.text-center p {
+    text-align: left;
+    width: 100% !important;
+}
+
+section#portfolio h2 {
+    margin-bottom: 30px;
+}
+
+.grid-list {
+    position:relative;
+    width: 100%;
+    height: 245px;
+    overflow:hidden;
+    float:left;
+    margin-right:20px;
+    background-color:rgba(26,76,110,0.5)
+}
+.grid-list p,.grid-list h2 {
+    color:#fff;
+    padding:10px;
+    left:-20px;
+    top:20px;
+    position:relative
+}
+.grid-list p {
+    font-family:'Lato';
+    font-size:12px;
+    line-height:18px;
+    top: 0;
+}
+.grid-list h2 {
+    font-size:20px;
+    line-height:24px;
+    margin:0;
+    font-family:'Lato'
+}
+.effect img {
+    position:absolute;
+    left:0;
+    bottom:0;
+    cursor:pointer;
+    margin:-12px 0;
+    -webkit-transition:bottom .3s ease-in-out;
+    -moz-transition:bottom .3s ease-in-out;
+    -o-transition:bottom .3s ease-in-out;
+    transition:bottom .3s ease-in-out
+}
+ul.grid-list.effect img {
+    width: 100%;
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h2.zero,p.zero {
+    margin:0;
+    padding:0
+}
+
+ul.grid-list.effect li {
+    list-style: none;
+}
+
+section#news p.news-text{
+    width: 70%;
+    margin: auto;
+}
+
+.first-post{
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+h2.btn-news {
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #E0356E;
+}
+
+h2.btn-news span{
+    font-size: 18px;
+    margin-left: 15px;
+}
+.news-post h4 {
+    margin: 25px 0;
+}
+.middle-post{
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.last-post{
+    display: flex;
+    align-items: center;
+}
+section.parallax {
+    background: #000;
+}
+.promo {
+    padding: 150px 0px;
+    color: #fff;
+}
+
+.promo.text-center p {
+    padding: 20px 0;
+}
+
+section#contact .title {
+    margin-bottom: 40px;
+}
+
+.contact p, .Address p {
+    line-height: 10px;
+}
+
+
+.Follow-us a {
+    font-size: 20px;
+    background-color: #e03560;
+    border-radius: 50px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+
+section#massage {
+    background: #ddd;
+    padding: 100px 0;
+}
+.massage-title h2 {
+    color: #e03560;
+}
+
+.form-control{
+    height: 50px;
+}
+section#map {
+    background: #000;
+    color: #fff;
+    padding: 50px 0 10px 0;
+}
+
+.slider-text {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    margin-top: 250px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*index-slider*/
+
+.section.banner{
+    padding: 0 0;
+}
+#slides .slide-caption{
+    padding: 10px 20px;
+    position: relative;
+    text-align: left;
+    max-width: 100%;
+    z-index: 3;
+    margin-top: 20%;
+}
+.banner a{
+    text-decoration: none;
+
+}
+.banner h2{
+    min-width: 470px;
+    width: 520px;
+    border-style: none;
+    border-color: transparent;
+    background-color: rgba(0,0,0, .7);
+    color: #fff;
+    display: block;
+    padding: 15px 20px;
+    font-size: 35px;
+    margin: 0;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.banner h2:hover{
+    color: #E03561;
+}
+
+.banner p{
+    min-width: 470px;
+    border-style: none;
+    display: inline-block;
+    border-color: transparent;
+    background-color: rgba(224, 53, 97, .7);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 15px 20px;
+    float: left;
+    width: 610px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
